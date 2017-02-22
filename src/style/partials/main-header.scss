@@ -30,8 +30,6 @@
     border-radius: 0;
     box-shadow: none;
     padding: 0 10px;
-    background-image: url(/static/tmcms/images/search.png);
-    background-repeat: no-repeat;
     background-color: #fff;
     border: 1px solid #ccc;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -51,7 +49,7 @@
     right: 15px;
     width: 30px;
     height: 30px;
-    background: url(../../img/sprite.png) no-repeat;
+    background: url(../img/sprite.png) no-repeat;
     background-position: -40px -1330px;
     border: none;
     cursor: pointer;
