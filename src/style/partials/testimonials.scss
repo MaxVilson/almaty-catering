@@ -1,0 +1,32 @@
+.testimonials {
+  text-align: center;
+}
+
+.testimonials-title {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.testimonials-text {
+  width: 260px;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: left;
+  font-size: 1.143em;
+  line-height: 20px;
+}
+
+.testimonials-auhor {
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: 700;
+  text-align: right;
+}
+
+/*Media querys*/
+@media (max-width: 992px) {
+  .testimonials-item {
+    margin-bottom: 40px;
+  }
+}

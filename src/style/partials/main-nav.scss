@@ -1,0 +1,13 @@
+.main-nav {
+  width: 100%;
+  font-size: 0;
+  background: #fff;
+}
+
+/*Media querys*/
+@media (max-width: 992px) { 
+  .main-nav {
+    width: 50%;
+    background: transparent;
+  }
+}

@@ -1,5 +1,5 @@
 .main-header {
-
+  
   &__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -7,11 +7,15 @@
   }
   
   &__logo {
-    
+    margin-top: 4px;
+    width: 50%;
   }
   
   &__search {
-    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 34px;
+    width: 50%;
   }
   
   &__search-input {
@@ -41,15 +45,23 @@
     position: relative;
   }
   
-  &__search-icon {
+  &__search-button {
     position: absolute;
-    top: 0;
+    top: 34px;
     right: 15px;
     width: 30px;
     height: 30px;
     background: url(../../img/sprite.png) no-repeat;
     background-position: -40px -1330px;
+    border: none;
     cursor: pointer;
     content: '';
+  }
+}
+
+/*Media querys*/
+@media (max-width: 992px) { 
+  .main-header__search {
+    display: none;
   }
 }

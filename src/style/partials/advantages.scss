@@ -1,0 +1,61 @@
+.advantages {
+	margin-top: 35px;
+	background: #fff;
+}
+
+.advantages-title {
+	margin-bottom: 35px;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-size: 3.429em;
+	font-weight: 300;
+	text-align: center;
+	color: #783c3d;
+}
+
+.advantages-item {
+	position: relative;
+	padding-top: 140px;
+	margin-bottom: 40px;
+	font-size: 1.5em;
+	line-height: 26px;
+	text-align: center;
+}
+
+.advantages-item::before {
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	width: 140px;
+	height: 120px;
+	background: url(../../img/sprite.png) no-repeat;
+	transform: translateX(-70px);
+	content: "";
+}
+
+.advantages-item:nth-child(2)::before {
+	background-position: 0 -133px;
+}
+
+.advantages-item:nth-child(3)::before {
+	background-position: 0 -272px;
+}
+
+.advantages-item:nth-child(4)::before {
+	top: 25px;
+	background-position: 0 -408px;
+}
+
+.advantages-item:nth-child(5)::before {
+	top: 35px;
+	background-position: 0 -528px;
+}
+
+.advantages-item:nth-child(6)::before {
+	top: 35px;
+	transform: translateX(-60px);
+	background-position: 0 -652px;
+}
+.advantages-item-text {
+	width: 270px;
+	margin: 0 auto;
+}
