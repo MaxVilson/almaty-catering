@@ -69,11 +69,17 @@
     top: 160px;
     left: 0;
     height: 1px;
-    width: 320px;
+    width: 290px;
   }
   
   .services-list {
     padding: 0;
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .services-title {
+    font-size: 1.4em;
   }
 }
