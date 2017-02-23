@@ -3,15 +3,20 @@
   background-size: cover;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: .9;
+}
+
 .carousel-control-next-icon {
-  background: url(../../img/arrow.svg) no-repeat;
+  background: url(../img/arrow.svg) no-repeat;
   width: 40px;
   height: 40px;
   transform: rotate(180deg);
 }
 
 .carousel-control-prev-icon {
-  background: url(../../img/arrow.svg) no-repeat;
+  background: url(../img/arrow.svg) no-repeat;
   width: 40px;
   height: 40px;
 }
@@ -22,13 +27,16 @@
 
 .carousel-title {
   position: absolute;
+  width: 70%;
   z-index: 2;
   top: 30%;
-  left: 17%;
+  left: 50%;
   font-size: 36px;
   text-transform: uppercase;
+  text-align: center;
   color: #783c3d;
   background: rgba(255, 255, 255, .7);
+  transform: translateX(-385px);
 }
 
 .carousel-button {
@@ -54,15 +62,15 @@
 /*Media querys*/
 @media (max-width: 1200px) { 
   .carousel-title {
-    left: 11%;
+    width: 80%;
+    transform: translateX(-370px);
   }
 }
 
 @media (max-width: 992px) { 
   .carousel-title {
-    left: 14%;
-    width: 500px;
-    text-align: center;
+    width: 70%;
+    transform: translateX(-240px);
   }
   
   .carousel-button {
@@ -70,13 +78,28 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .carousel-title {
-    font-size: 26px;
-    width: 320px;
-    left: 20%;
+    font-size: 30px;
+    transform: translateX(-180px);
   }
   .carousel-button {
     margin-top: 50px;
+    width: 300px;
+    transform: translateX(-150px);
   }
-} 
+}
+
+@media (max-width: 576px) {
+  .carousel-title {
+    top: 15%;
+    width: 290px;
+    font-size: 28px;
+    transform: translateX(-145px);
+  }
+  
+  .carousel-button {
+    width: 250px;
+    transform: translateX(-132px);
+  }
+}

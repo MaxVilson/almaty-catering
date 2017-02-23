@@ -5,11 +5,6 @@
 
 .advantages-title {
 	margin-bottom: 35px;
-	font-family: 'Open Sans', 'Arial', sans-serif;
-	font-size: 3.429em;
-	font-weight: 300;
-	text-align: center;
-	color: #783c3d;
 }
 
 .advantages-item {
@@ -27,7 +22,7 @@
 	left: 50%;
 	width: 140px;
 	height: 120px;
-	background: url(../../img/sprite.png) no-repeat;
+	background: url(../img/sprite.png) no-repeat;
 	transform: translateX(-70px);
 	content: "";
 }

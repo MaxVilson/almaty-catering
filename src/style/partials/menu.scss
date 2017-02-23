@@ -74,8 +74,8 @@
     right: 14px;
     z-index: 20;
     display: none;
-    padding-left: 90px;
-    padding-top: 90px;
+    padding-left: 40px;
+    padding-top: 20px;
     padding-bottom: 90px;
     width: 80%;
     background: #fff;
@@ -98,5 +98,20 @@
   .menu-trigger-transform i:last-child {
     transform:rotate(-45deg);
     top: 40%;
+  }
+}
+
+@media (max-width: 576px) {
+  .menu-trigger {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    top: 149px;
+    
+    &__link {
+      font-size: 20px;
+    }
   }
 }

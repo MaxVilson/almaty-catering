@@ -2,3 +2,18 @@ body {
   font-family: 'Open Sans', 'Arial', sans-serif;
   background: #fff2c9;
 }
+
+h2 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #783c3d;
+  text-align: center;
+}
+
+
+/*Media querys*/
+@media (max-width: 576px) {
+  h2 {
+    font-size: 38px;
+  }
+}
