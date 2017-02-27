@@ -1,0 +1,12 @@
+.iBankethallImage {
+	position: relative;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5); 
+
+	& img {
+		max-width: 100%;
+	}
+}
+
+.gallery-item {
+	margin-bottom: 20px;
+}
