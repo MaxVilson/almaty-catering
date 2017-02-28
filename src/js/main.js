@@ -1,5 +1,12 @@
-/*Сюда мы подключаем все скрипты*/
+$(document).ready(function() {
 
-//= ../../bower_components/jquery/dist/jquery.min.js
-
-//= partials/menu.js
+	$('.menu-trigger').click(function() { 
+		$('.menu').slideToggle(500);
+		$('.menu-trigger').toggleClass('menu-trigger-transform');
+	});
+	$(window).resize(function() {
+		if ($(window).width() >1500) {
+			$('.menu').removeAttr('style');
+		}
+	});
+});
